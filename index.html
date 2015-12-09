@@ -1,62 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-		<title>Google Nexus Website Menu</title>
-		<meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
-		<meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<ul id="gn-menu" class="gn-menu-main">
-				<li class="gn-trigger">
-					<a class="gn-icon gn-icon-menu"><span>Menu</span></a>
-					<nav class="gn-menu-wrapper">
-						<div class="gn-scroller">
-							<ul class="gn-menu">
-								<li class="gn-search-item">
-									<input placeholder="Search" type="search" class="gn-search">
-									<a class="gn-icon gn-icon-search"><span>Search</span></a>
-								</li>
-								<li>
-									<a class="gn-icon gn-icon-download">Downloads</a>
-									<ul class="gn-submenu">
-										<li><a class="gn-icon gn-icon-illustrator">Vector Illustrations</a></li>
-										<li><a class="gn-icon gn-icon-photoshop">Photoshop files</a></li>
-									</ul>
-								</li>
-								<li><a class="gn-icon gn-icon-cog">Settings</a></li>
-								<li><a class="gn-icon gn-icon-help">Help</a></li>
-								<li>
-									<a class="gn-icon gn-icon-archive">Archives</a>
-									<ul class="gn-submenu">
-										<li><a class="gn-icon gn-icon-article">Articles</a></li>
-										<li><a class="gn-icon gn-icon-pictures">Images</a></li>
-										<li><a class="gn-icon gn-icon-videos">Videos</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div><!-- /gn-scroller -->
-					</nav>
-				</li>
-				<li><a href="#">Le Paresseux</a></li>
-			</ul>
-			<header>
-				<h1></h1>	
-			</header> 
-		</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script src="js/gnmenu.js"></script>
-		<script>
-			new gnMenu( document.getElementById( 'gn-menu' ) );
-		</script>
-	</body>
+<html lang="FR">
+<head>
+  <meta charset="UTF-8">
+  <title>LeParesseux</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="wrapper">
+      <div id="leftWrapper">
+          <div id="listView" class="list">
+            <li class="list-item-active"><a href="#">Home</a></li>
+            <li><a href="#">A Propos</a></li>
+            <li><a href="#">Projets</a></li>
+            <li><a href="#">Boutique</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Social</a></li>          
+          </div>
+        </div>
+
+      <div id="rightWrapper">
+        <div id="header">
+          <a id="fullPage" href="#">|||</a>
+        </div>
+        <div id="contentWrapper" class="col-md-12 col-lg-12">
+            <h1>Template et Service, Web et Graphique
+              <img src="img/bannerContent-1.jpg" alt="Template et Service, Web et Graphique">
+            </h1>
+
+            <div class="contentMenu">
+              <a href="">
+                <img class="firstmenuimg" src="img/bannerContent-2.jpg" alt="">
+              </a>
+              <a href="">
+                <img class="lastmenuimg" src="img/bannerContent-3.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="about col-md-12 col-lg-12">
+              <h2>LeParesseux.fr</h2>
+              <p>Nous vous proposons des services à bas pris Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla omnis quaerat nostrum fugit veritatis cupiditate vitae. Error asperiores doloribus distinctio dolorem fuga necessitatibus dicta culpa, placeat eum aliquam nemo.</p>
+            </div>
+        </div>
+      </div>
+  </div>
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script rel="text/javascript" src="js/script.js"></script>
+</body>
 </html>
